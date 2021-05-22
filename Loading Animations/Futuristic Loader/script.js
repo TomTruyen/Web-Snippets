@@ -8,6 +8,7 @@ window.onload = (e) => {
 
     innerCircle.addEventListener('animationend', function () {
         this.classList.add('inner_circle_rotate');
+        document.querySelector('.inner_circle').classList.add('inner_circle_rotate');
     });
 
     middleCircle.addEventListener('animationend', function () {
@@ -16,6 +17,7 @@ window.onload = (e) => {
 
     outerCircle.addEventListener('animationend', function () {
         this.classList.add('outer_circle_rotate');
+        document.querySelector('.outer_circle_full').classList.add('outer_circle_rotate');
     });
 
 }

@@ -73,7 +73,7 @@ body {
 }
 
 .outer_circle_rotate {
-  animation: rotateOuter 6s infinite ease-in-out;
+  animation: rotateOuter 6s infinite ease-in-out !important;
 }
 
 @keyframes rotateOuter {
@@ -125,7 +125,7 @@ body {
 }
 
 .middle_circle_rotate {
-  animation: rotateMiddle 5s infinite ease-in-out;
+  animation: rotateMiddle 5s infinite ease-in-out !important;
 }
 
 @keyframes scaleMiddle {
@@ -169,7 +169,7 @@ body {
 }
 
 .inner_circle_rotate {
-  animation: rotateInner 4s infinite ease-in-out;
+  animation: rotateInner 4s infinite ease-in-out !important;
 }
 
 @keyframes rotateInner {
@@ -188,7 +188,6 @@ body {
   r: 125;
   stroke: #B4F6FB;
   stroke-width: 15px;
-  filter: blur(1px);
   filter: drop-shadow(0px 0px 2.5px #64E6EF);
   animation: scaleInner 2s ease-in-out;
 
