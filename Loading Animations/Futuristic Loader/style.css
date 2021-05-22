@@ -40,6 +40,19 @@ body {
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 5px;
+  animation: scaleText 2s ease-in-out
+}
+
+@keyframes scaleText {
+  0% {
+    transform:translate(-50%, -50%) scale(0);
+  }
+  50%{
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
 }
 
 .circle {
