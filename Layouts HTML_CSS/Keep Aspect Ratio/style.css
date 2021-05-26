@@ -1,0 +1,32 @@
+:root {
+    --blue: hsl(187, 61%, 79%);
+    --green: hsl(100, 64%, 86%);
+}
+
+.h-100 {
+    min-height: 100vh;
+}
+
+.center_items {
+    display: grid;
+    place-items: center;
+}
+
+.visual {
+    aspect-ratio: 16 / 9;
+}
+
+.card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.green {
+    background-color: var(--green);
+}
