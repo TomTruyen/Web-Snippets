@@ -48,6 +48,7 @@ body {
 
 .my-navbar .list-group-item i {
     margin-right: 1rem;
+    width: 20px;
 }
 
 .my-navbar .list-group-item:hover,
