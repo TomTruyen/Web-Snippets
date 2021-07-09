@@ -16,7 +16,7 @@ body {
 .my-navbar {
     list-style: none;
     user-select: none;
-    position: sticky;
+    position: fixed;
     width: 100%;
     height: 100vh;
     background-color: #fff;
